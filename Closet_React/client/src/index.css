@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-rose: #e11d48;
+  --primary-rose-dark: #be185d;
+  --secondary-amber: #f59e0b;
+  --accent-purple: #8b5cf6;
+  --neutral-warm: #fef7ed;
+  --text-dark: #1f2937;
+}
+
+.bg-fashion-gradient {
+  background: linear-gradient(135deg, #fef7ed 0%, #fdf2f8 50%, #f3e8ff 100%);
+}
+
+.text-fashion-primary {
+  color: var(--primary-rose);
+}
+
+.bg-fashion-primary {
+  background-color: var(--primary-rose);
+}
+
+.border-fashion-primary {
+  border-color: var(--primary-rose);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+.animate-fadeIn { animation: fadeIn 0.25s ease-out; }
+
+@keyframes slideUp {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}
+.animate-slideUp {
+  animation: slideUp 0.35s ease-out;
+}
+

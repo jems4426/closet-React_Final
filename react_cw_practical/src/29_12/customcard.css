@@ -1,0 +1,21 @@
+.user-card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    border-radius: 8px;
+    max-width: 300px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.user-card img {
+    width: 100%;
+    border-radius: 10%;
+    height: 300px;
+    margin-bottom: 25px;
+}
+.user-card button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
