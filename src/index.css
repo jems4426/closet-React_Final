@@ -15,6 +15,10 @@
   background: linear-gradient(135deg, #fef7ed 0%, #fdf2f8 50%, #f3e8ff 100%);
 }
 
+.bg-auth-gradient {
+  background: linear-gradient(135deg, #f43f5e 0%, #f97316 50%, #fbbf24 100%);
+}
+
 .text-fashion-primary {
   color: var(--primary-rose);
 }
